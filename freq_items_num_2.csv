@@ -1,0 +1,129 @@
+itemsets,support
+frozenset({'sex_Male'}),0.9339622641509434
+frozenset({'cp_asymptomatic'}),0.7735849056603774
+frozenset({'fbs_False'}),0.6981132075471698
+frozenset({'fbs_True'}),0.3018867924528302
+frozenset({'restecg_normal'}),0.4716981132075472
+frozenset({'exang_False'}),0.33962264150943394
+frozenset({'exang_True'}),0.660377358490566
+frozenset({'age_40-60'}),0.5
+frozenset({'age_>60'}),0.4811320754716981
+frozenset({'chol_Borderline'}),0.3018867924528302
+frozenset({'chol_High'}),0.6132075471698113
+frozenset({'trestbps_Normal'}),0.3490566037735849
+frozenset({'trestbps_High'}),0.4528301886792453
+frozenset({'thalch_Normal'}),0.6698113207547169
+frozenset({'oldpeak_Mild'}),0.7830188679245284
+"frozenset({'sex_Male', 'cp_asymptomatic'})",0.7169811320754716
+"frozenset({'sex_Male', 'fbs_False'})",0.660377358490566
+"frozenset({'sex_Male', 'restecg_normal'})",0.4528301886792453
+"frozenset({'sex_Male', 'exang_False'})",0.3113207547169811
+"frozenset({'sex_Male', 'exang_True'})",0.6226415094339622
+"frozenset({'sex_Male', 'age_40-60'})",0.46226415094339623
+"frozenset({'sex_Male', 'age_>60'})",0.4528301886792453
+"frozenset({'sex_Male', 'chol_High'})",0.5660377358490566
+"frozenset({'sex_Male', 'trestbps_Normal'})",0.33962264150943394
+"frozenset({'sex_Male', 'trestbps_High'})",0.4056603773584906
+"frozenset({'sex_Male', 'thalch_Normal'})",0.6415094339622641
+"frozenset({'sex_Male', 'oldpeak_Mild'})",0.7452830188679245
+"frozenset({'fbs_False', 'cp_asymptomatic'})",0.5377358490566038
+"frozenset({'restecg_normal', 'cp_asymptomatic'})",0.330188679245283
+"frozenset({'exang_True', 'cp_asymptomatic'})",0.5471698113207547
+"frozenset({'age_40-60', 'cp_asymptomatic'})",0.39622641509433965
+"frozenset({'age_>60', 'cp_asymptomatic'})",0.3584905660377358
+"frozenset({'chol_High', 'cp_asymptomatic'})",0.49056603773584906
+"frozenset({'trestbps_High', 'cp_asymptomatic'})",0.36792452830188677
+"frozenset({'cp_asymptomatic', 'thalch_Normal'})",0.5283018867924528
+"frozenset({'oldpeak_Mild', 'cp_asymptomatic'})",0.5849056603773585
+"frozenset({'restecg_normal', 'fbs_False'})",0.37735849056603776
+"frozenset({'fbs_False', 'exang_True'})",0.5188679245283019
+"frozenset({'fbs_False', 'age_40-60'})",0.39622641509433965
+"frozenset({'chol_High', 'fbs_False'})",0.3867924528301887
+"frozenset({'trestbps_Normal', 'fbs_False'})",0.3113207547169811
+"frozenset({'fbs_False', 'thalch_Normal'})",0.5094339622641509
+"frozenset({'oldpeak_Mild', 'fbs_False'})",0.5377358490566038
+"frozenset({'restecg_normal', 'exang_True'})",0.32075471698113206
+"frozenset({'restecg_normal', 'thalch_Normal'})",0.3113207547169811
+"frozenset({'oldpeak_Mild', 'restecg_normal'})",0.37735849056603776
+"frozenset({'age_40-60', 'exang_True'})",0.33962264150943394
+"frozenset({'age_>60', 'exang_True'})",0.3113207547169811
+"frozenset({'chol_High', 'exang_True'})",0.36792452830188677
+"frozenset({'trestbps_High', 'exang_True'})",0.3113207547169811
+"frozenset({'exang_True', 'thalch_Normal'})",0.5094339622641509
+"frozenset({'oldpeak_Mild', 'exang_True'})",0.5094339622641509
+"frozenset({'age_40-60', 'thalch_Normal'})",0.33962264150943394
+"frozenset({'oldpeak_Mild', 'age_40-60'})",0.37735849056603776
+"frozenset({'chol_High', 'age_>60'})",0.32075471698113206
+"frozenset({'age_>60', 'thalch_Normal'})",0.3113207547169811
+"frozenset({'oldpeak_Mild', 'age_>60'})",0.3867924528301887
+"frozenset({'chol_High', 'trestbps_High'})",0.32075471698113206
+"frozenset({'chol_High', 'thalch_Normal'})",0.33962264150943394
+"frozenset({'chol_High', 'oldpeak_Mild'})",0.4811320754716981
+"frozenset({'oldpeak_Mild', 'trestbps_High'})",0.3490566037735849
+"frozenset({'oldpeak_Mild', 'thalch_Normal'})",0.5094339622641509
+"frozenset({'sex_Male', 'fbs_False', 'cp_asymptomatic'})",0.5
+"frozenset({'sex_Male', 'restecg_normal', 'cp_asymptomatic'})",0.3113207547169811
+"frozenset({'sex_Male', 'exang_True', 'cp_asymptomatic'})",0.5094339622641509
+"frozenset({'sex_Male', 'age_40-60', 'cp_asymptomatic'})",0.36792452830188677
+"frozenset({'sex_Male', 'age_>60', 'cp_asymptomatic'})",0.330188679245283
+"frozenset({'sex_Male', 'chol_High', 'cp_asymptomatic'})",0.4528301886792453
+"frozenset({'sex_Male', 'trestbps_High', 'cp_asymptomatic'})",0.32075471698113206
+"frozenset({'sex_Male', 'cp_asymptomatic', 'thalch_Normal'})",0.5
+"frozenset({'sex_Male', 'oldpeak_Mild', 'cp_asymptomatic'})",0.5566037735849056
+"frozenset({'sex_Male', 'restecg_normal', 'fbs_False'})",0.36792452830188677
+"frozenset({'sex_Male', 'fbs_False', 'exang_True'})",0.5
+"frozenset({'sex_Male', 'fbs_False', 'age_40-60'})",0.37735849056603776
+"frozenset({'sex_Male', 'fbs_False', 'chol_High'})",0.3584905660377358
+"frozenset({'sex_Male', 'trestbps_Normal', 'fbs_False'})",0.3018867924528302
+"frozenset({'sex_Male', 'fbs_False', 'thalch_Normal'})",0.49056603773584906
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Mild'})",0.5188679245283019
+"frozenset({'sex_Male', 'restecg_normal', 'exang_True'})",0.3018867924528302
+"frozenset({'sex_Male', 'restecg_normal', 'thalch_Normal'})",0.3018867924528302
+"frozenset({'sex_Male', 'restecg_normal', 'oldpeak_Mild'})",0.3584905660377358
+"frozenset({'sex_Male', 'age_40-60', 'exang_True'})",0.32075471698113206
+"frozenset({'sex_Male', 'chol_High', 'exang_True'})",0.3490566037735849
+"frozenset({'sex_Male', 'exang_True', 'thalch_Normal'})",0.4811320754716981
+"frozenset({'sex_Male', 'oldpeak_Mild', 'exang_True'})",0.4811320754716981
+"frozenset({'sex_Male', 'age_40-60', 'thalch_Normal'})",0.32075471698113206
+"frozenset({'sex_Male', 'age_40-60', 'oldpeak_Mild'})",0.3584905660377358
+"frozenset({'sex_Male', 'age_>60', 'chol_High'})",0.3018867924528302
+"frozenset({'sex_Male', 'age_>60', 'thalch_Normal'})",0.3018867924528302
+"frozenset({'sex_Male', 'age_>60', 'oldpeak_Mild'})",0.36792452830188677
+"frozenset({'sex_Male', 'chol_High', 'thalch_Normal'})",0.32075471698113206
+"frozenset({'sex_Male', 'oldpeak_Mild', 'chol_High'})",0.46226415094339623
+"frozenset({'sex_Male', 'oldpeak_Mild', 'trestbps_High'})",0.330188679245283
+"frozenset({'sex_Male', 'oldpeak_Mild', 'thalch_Normal'})",0.49056603773584906
+"frozenset({'fbs_False', 'exang_True', 'cp_asymptomatic'})",0.41509433962264153
+"frozenset({'fbs_False', 'age_40-60', 'cp_asymptomatic'})",0.3113207547169811
+"frozenset({'chol_High', 'fbs_False', 'cp_asymptomatic'})",0.3113207547169811
+"frozenset({'fbs_False', 'cp_asymptomatic', 'thalch_Normal'})",0.4056603773584906
+"frozenset({'oldpeak_Mild', 'fbs_False', 'cp_asymptomatic'})",0.39622641509433965
+"frozenset({'age_40-60', 'exang_True', 'cp_asymptomatic'})",0.3018867924528302
+"frozenset({'chol_High', 'exang_True', 'cp_asymptomatic'})",0.3113207547169811
+"frozenset({'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.4339622641509434
+"frozenset({'oldpeak_Mild', 'exang_True', 'cp_asymptomatic'})",0.4056603773584906
+"frozenset({'oldpeak_Mild', 'chol_High', 'cp_asymptomatic'})",0.37735849056603776
+"frozenset({'oldpeak_Mild', 'cp_asymptomatic', 'thalch_Normal'})",0.3867924528301887
+"frozenset({'oldpeak_Mild', 'restecg_normal', 'fbs_False'})",0.3018867924528302
+"frozenset({'fbs_False', 'exang_True', 'thalch_Normal'})",0.42452830188679247
+"frozenset({'oldpeak_Mild', 'fbs_False', 'exang_True'})",0.39622641509433965
+"frozenset({'chol_High', 'fbs_False', 'oldpeak_Mild'})",0.3018867924528302
+"frozenset({'oldpeak_Mild', 'fbs_False', 'thalch_Normal'})",0.39622641509433965
+"frozenset({'oldpeak_Mild', 'exang_True', 'thalch_Normal'})",0.36792452830188677
+"frozenset({'sex_Male', 'fbs_False', 'exang_True', 'cp_asymptomatic'})",0.39622641509433965
+"frozenset({'sex_Male', 'fbs_False', 'cp_asymptomatic', 'thalch_Normal'})",0.3867924528301887
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Mild', 'cp_asymptomatic'})",0.37735849056603776
+"frozenset({'sex_Male', 'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.4056603773584906
+"frozenset({'sex_Male', 'exang_True', 'oldpeak_Mild', 'cp_asymptomatic'})",0.37735849056603776
+"frozenset({'oldpeak_Mild', 'sex_Male', 'chol_High', 'cp_asymptomatic'})",0.36792452830188677
+"frozenset({'sex_Male', 'oldpeak_Mild', 'cp_asymptomatic', 'thalch_Normal'})",0.36792452830188677
+"frozenset({'sex_Male', 'fbs_False', 'exang_True', 'thalch_Normal'})",0.4056603773584906
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Mild', 'exang_True'})",0.37735849056603776
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Mild', 'thalch_Normal'})",0.37735849056603776
+"frozenset({'sex_Male', 'exang_True', 'oldpeak_Mild', 'thalch_Normal'})",0.3490566037735849
+"frozenset({'fbs_False', 'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.3490566037735849
+"frozenset({'oldpeak_Mild', 'fbs_False', 'exang_True', 'cp_asymptomatic'})",0.3018867924528302
+"frozenset({'oldpeak_Mild', 'fbs_False', 'cp_asymptomatic', 'thalch_Normal'})",0.3018867924528302
+"frozenset({'oldpeak_Mild', 'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.3018867924528302
+"frozenset({'oldpeak_Mild', 'fbs_False', 'exang_True', 'thalch_Normal'})",0.3113207547169811
+"frozenset({'sex_Male', 'thalch_Normal', 'fbs_False', 'cp_asymptomatic', 'exang_True'})",0.330188679245283

@@ -1,0 +1,118 @@
+itemsets,support
+frozenset({'sex_Male'}),0.9285714285714286
+frozenset({'cp_asymptomatic'}),0.8214285714285714
+frozenset({'fbs_False'}),0.7857142857142857
+frozenset({'restecg_lv hypertrophy'}),0.4642857142857143
+frozenset({'exang_False'}),0.42857142857142855
+frozenset({'exang_True'}),0.5714285714285714
+frozenset({'age_40-60'}),0.5
+frozenset({'age_>60'}),0.4642857142857143
+frozenset({'chol_Borderline'}),0.32142857142857145
+frozenset({'chol_High'}),0.5357142857142857
+frozenset({'trestbps_Normal'}),0.32142857142857145
+frozenset({'trestbps_High'}),0.4642857142857143
+frozenset({'thalch_Normal'}),0.7142857142857143
+frozenset({'oldpeak_Mild'}),0.4642857142857143
+frozenset({'oldpeak_Severe'}),0.5357142857142857
+"frozenset({'sex_Male', 'cp_asymptomatic'})",0.75
+"frozenset({'sex_Male', 'fbs_False'})",0.7142857142857143
+"frozenset({'restecg_lv hypertrophy', 'sex_Male'})",0.39285714285714285
+"frozenset({'sex_Male', 'exang_False'})",0.35714285714285715
+"frozenset({'sex_Male', 'exang_True'})",0.5714285714285714
+"frozenset({'sex_Male', 'age_40-60'})",0.5
+"frozenset({'sex_Male', 'age_>60'})",0.39285714285714285
+"frozenset({'sex_Male', 'chol_High'})",0.5
+"frozenset({'sex_Male', 'trestbps_Normal'})",0.32142857142857145
+"frozenset({'sex_Male', 'trestbps_High'})",0.39285714285714285
+"frozenset({'sex_Male', 'thalch_Normal'})",0.6785714285714286
+"frozenset({'sex_Male', 'oldpeak_Mild'})",0.42857142857142855
+"frozenset({'sex_Male', 'oldpeak_Severe'})",0.5
+"frozenset({'fbs_False', 'cp_asymptomatic'})",0.6428571428571429
+"frozenset({'restecg_lv hypertrophy', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'exang_False', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'exang_True', 'cp_asymptomatic'})",0.5
+"frozenset({'age_40-60', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'age_>60', 'cp_asymptomatic'})",0.42857142857142855
+"frozenset({'chol_High', 'cp_asymptomatic'})",0.5
+"frozenset({'trestbps_High', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'cp_asymptomatic', 'thalch_Normal'})",0.6071428571428571
+"frozenset({'oldpeak_Mild', 'cp_asymptomatic'})",0.42857142857142855
+"frozenset({'oldpeak_Severe', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'restecg_lv hypertrophy', 'fbs_False'})",0.39285714285714285
+"frozenset({'fbs_False', 'exang_False'})",0.32142857142857145
+"frozenset({'fbs_False', 'exang_True'})",0.4642857142857143
+"frozenset({'fbs_False', 'age_40-60'})",0.35714285714285715
+"frozenset({'fbs_False', 'age_>60'})",0.39285714285714285
+"frozenset({'chol_High', 'fbs_False'})",0.39285714285714285
+"frozenset({'fbs_False', 'trestbps_High'})",0.32142857142857145
+"frozenset({'fbs_False', 'thalch_Normal'})",0.5714285714285714
+"frozenset({'fbs_False', 'oldpeak_Severe'})",0.5
+"frozenset({'restecg_lv hypertrophy', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'age_>60', 'exang_True'})",0.32142857142857145
+"frozenset({'chol_High', 'exang_True'})",0.35714285714285715
+"frozenset({'exang_True', 'thalch_Normal'})",0.42857142857142855
+"frozenset({'oldpeak_Severe', 'exang_True'})",0.35714285714285715
+"frozenset({'chol_High', 'age_40-60'})",0.32142857142857145
+"frozenset({'age_40-60', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'oldpeak_Mild', 'age_40-60'})",0.32142857142857145
+"frozenset({'age_>60', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'age_>60', 'oldpeak_Severe'})",0.32142857142857145
+"frozenset({'chol_High', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'trestbps_High', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'oldpeak_Mild', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'oldpeak_Severe', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'sex_Male', 'fbs_False', 'cp_asymptomatic'})",0.5714285714285714
+"frozenset({'sex_Male', 'exang_True', 'cp_asymptomatic'})",0.5
+"frozenset({'sex_Male', 'age_40-60', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'sex_Male', 'age_>60', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'sex_Male', 'chol_High', 'cp_asymptomatic'})",0.4642857142857143
+"frozenset({'sex_Male', 'trestbps_High', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'sex_Male', 'cp_asymptomatic', 'thalch_Normal'})",0.5714285714285714
+"frozenset({'sex_Male', 'oldpeak_Mild', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'sex_Male', 'oldpeak_Severe', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'fbs_False', 'restecg_lv hypertrophy', 'sex_Male'})",0.32142857142857145
+"frozenset({'sex_Male', 'fbs_False', 'exang_True'})",0.4642857142857143
+"frozenset({'sex_Male', 'fbs_False', 'age_40-60'})",0.35714285714285715
+"frozenset({'sex_Male', 'fbs_False', 'age_>60'})",0.32142857142857145
+"frozenset({'sex_Male', 'fbs_False', 'chol_High'})",0.35714285714285715
+"frozenset({'sex_Male', 'fbs_False', 'thalch_Normal'})",0.5357142857142857
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Severe'})",0.4642857142857143
+"frozenset({'sex_Male', 'age_>60', 'exang_True'})",0.32142857142857145
+"frozenset({'sex_Male', 'chol_High', 'exang_True'})",0.35714285714285715
+"frozenset({'sex_Male', 'exang_True', 'thalch_Normal'})",0.42857142857142855
+"frozenset({'sex_Male', 'oldpeak_Severe', 'exang_True'})",0.35714285714285715
+"frozenset({'sex_Male', 'age_40-60', 'chol_High'})",0.32142857142857145
+"frozenset({'sex_Male', 'age_40-60', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'sex_Male', 'age_40-60', 'oldpeak_Mild'})",0.32142857142857145
+"frozenset({'sex_Male', 'chol_High', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'sex_Male', 'trestbps_High', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'sex_Male', 'oldpeak_Severe', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'fbs_False', 'exang_True', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'fbs_False', 'age_>60', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'chol_High', 'fbs_False', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'fbs_False', 'cp_asymptomatic', 'thalch_Normal'})",0.5
+"frozenset({'fbs_False', 'oldpeak_Severe', 'cp_asymptomatic'})",0.35714285714285715
+"frozenset({'age_>60', 'exang_True', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'chol_High', 'exang_True', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'age_40-60', 'cp_asymptomatic', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'chol_High', 'cp_asymptomatic', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'oldpeak_Severe', 'cp_asymptomatic', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'fbs_False', 'exang_True', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'fbs_False', 'oldpeak_Severe', 'exang_True'})",0.32142857142857145
+"frozenset({'fbs_False', 'oldpeak_Severe', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'sex_Male', 'fbs_False', 'exang_True', 'cp_asymptomatic'})",0.39285714285714285
+"frozenset({'sex_Male', 'fbs_False', 'chol_High', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'sex_Male', 'fbs_False', 'cp_asymptomatic', 'thalch_Normal'})",0.4642857142857143
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Severe', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'age_>60', 'sex_Male', 'exang_True', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'sex_Male', 'exang_True', 'chol_High', 'cp_asymptomatic'})",0.32142857142857145
+"frozenset({'sex_Male', 'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.39285714285714285
+"frozenset({'sex_Male', 'age_40-60', 'cp_asymptomatic', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'sex_Male', 'chol_High', 'cp_asymptomatic', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'sex_Male', 'oldpeak_Severe', 'cp_asymptomatic', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'sex_Male', 'fbs_False', 'exang_True', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Severe', 'exang_True'})",0.32142857142857145
+"frozenset({'sex_Male', 'fbs_False', 'oldpeak_Severe', 'thalch_Normal'})",0.35714285714285715
+"frozenset({'fbs_False', 'exang_True', 'cp_asymptomatic', 'thalch_Normal'})",0.32142857142857145
+"frozenset({'sex_Male', 'thalch_Normal', 'fbs_False', 'cp_asymptomatic', 'exang_True'})",0.32142857142857145
